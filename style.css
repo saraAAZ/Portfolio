@@ -31,10 +31,9 @@ body{
     align-items: center;
     padding: 20px 10px;
 }
-.form__container button :hover{
+.form__container button:hover{
     background-color: green;
-     color: white;
-
+    color: white;
 }
 .toDo__container{
     background-color: rgb(180, 233, 235);
@@ -62,6 +61,5 @@ button{
     background-color: khaki;
 }
 #name{
-    padding: 4px;
-    width: 100#;
+    padding:4.3px;
 }
