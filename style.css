@@ -2,20 +2,39 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
 .background__container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: rgb(201, 163, 236);
     opacity: .5;
-    width: 100%;
+    width: 80%;
     padding: 10px 0px;
+    border-radius:10px;
 }
+    
 .form__container{
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
     padding: 20px 10px;
+}
+.form__container button :hover{
+    background-color: green;
+     color: white;
+
 }
 .toDo__container{
     background-color: rgb(180, 233, 235);
@@ -23,9 +42,26 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    width: 79%;
+    padding : 6px 5px;
+    margin-top:3px;
+    border-radius:10px;
+    
 }
 button{
     border: none;
-    [padding: 5px;
+    padding: 5px;
     margin: 3px;
+}
+.toDo__container button:hover{
+    color: white;
+    background-color: rgb(204, 7, 7);
+
+}
+.toDo__container:hover{
+    background-color: khaki;
+}
+#name{
+    padding: 4px;
+    width: 100#;
 }
